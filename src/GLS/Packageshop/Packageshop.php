@@ -4,11 +4,11 @@ namespace GLS\Packageshop;
 
 	/**
 	 * This class will enable access to the GLS Pakkeshop webservcie.
-	 * The service descriptio is located at http://www.gls.dk/webservices_v2/wsPakkeshop.asmx
+	 * The service description is located at http://www.gls.dk/webservices_v2/wsPakkeshop.asmx
 	 * Methods available in this class matches technical documentation v.1.0.0.2 from GLS.
 	 *
 	 * Requirements:
-	 * PHP 5 with
+	 * PHP 5.1.6+
 	 * --enable-libxml
 	 * --enable-soap
 	 * 

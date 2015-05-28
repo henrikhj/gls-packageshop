@@ -1,5 +1,20 @@
 {
     "name": "henrikhj/gls-packageshop",
+    "description": "A simple SDK for interfacing with the DK/SE GLS Packageshop locator webservice",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dan Storm",
+            "homepage": "https://github.com/Repox",
+            "role": "Developer"
+        },
+        {
+            "name": "Henrik Jensen",
+            "homepage": "https://github.com/henrikhj",
+            "role": "Developer"
+        }
+    ],
     "autoload": {
         "psr-4" : {
             "GLS\\Packageshop\\" : "src/GLS/Packageshop/"
