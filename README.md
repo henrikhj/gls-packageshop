@@ -1,7 +1,7 @@
 GLS Packageshop webservice PHP SDK
 ==================================
 
-This library provides an elegang way to interface with the GLS Packageshop soap webservice.
+This library provides an intuitive way to interface with the DK/SE GLS Packageshop soap webservice (Service descriptor at http://www.gls.dk/webservices_v2/wsPakkeshop.asmx).
 You can search for packageshops using addresses and postal numbers.
 
 Initially developed by Dan Storm ported into a composer library by Henrik Jensen.
