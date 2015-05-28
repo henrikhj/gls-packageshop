@@ -1,5 +1,7 @@
 <?php
 
+namespace GLS\Packageshop;
+
 	/**
 	 * This class will enable access to the GLS Pakkeshop webservcie.
 	 * The service descriptio is located at http://www.gls.dk/webservices_v2/wsPakkeshop.asmx
@@ -11,16 +13,15 @@
 	 * --enable-soap
 	 * 
 	 * @author Dan Storm
-	 * @created 15/01/2012
-	 * @info http://catalystcode.net
-	 * @version 1.0
+	 * @author Henrik Jensen
+	 * @version 2.0
+	 * @package GLS\Packageshop
 	 */
 
-	class wsPakkeshop
+	class Packageshop
 	{
 		private $client, $encoding;
 		public $error;
-		
 		
 		/**
 		 * This is the constructor method.

@@ -1,0 +1,8 @@
+{
+    "name": "henrikhj/gls-packageshop",
+    "autoload": {
+        "psr-4" : {
+            "GLS\\Packageshop\\" : "src/GLS/Packageshop/"
+        }
+    }
+}
